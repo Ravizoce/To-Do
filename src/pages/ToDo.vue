@@ -17,7 +17,7 @@
 
 <script>
 import { defineComponent } from 'vue'
-// import { useListStore } from 'src/stores/store';
+import { useListStore } from 'src/stores/store';
 // import { storeToRefs } from 'pinia';
 import { useQuasar } from 'quasar';
 import TaskAll from 'src/components/List/TaskAll.vue'
